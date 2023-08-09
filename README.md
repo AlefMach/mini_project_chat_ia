@@ -1,21 +1,36 @@
 # BasicChat
 
-**TODO: Add description**
+  This is a simple project to simulate a IA of the conversation
 
-## Installation
+  it's very simple, but the logic is the same used in big tech company
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `basic_chat` to your list of dependencies in `mix.exs`:
+## Start
 
-```elixir
-def deps do
-  [
-    {:basic_chat, "~> 0.1.0"}
-  ]
-end
+Make sure with you have all depedences necessary for run this project
+
+The versions is provides in `.tool-versions`
+
+
+## Install deps
+
+run in your CLI
+
+```shell
+mix deps.get
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/basic_chat>.
+after you made this can run
 
+```shell
+iex -S mix
+
+iex> BasicChat.tell_me("Bom dia! como está?")
+Estou bem, como posso ajudar?
+
+bom dia!
+:ok
+```
+
+the files that you can change is `lib/data.ex`
+
+you can add more params to the file for the program identify what he can say to you.
