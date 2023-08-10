@@ -1,5 +1,7 @@
 # BasicChat
 
+  ![](logo.jpeg#vitrinedev)
+
   This is a simple project to simulate a IA of the conversation
 
   it's very simple, but the logic is the same used in big tech company
